@@ -35,7 +35,7 @@ Your password is: `{user-password}`
 ****
 
 [time=2]
-[id="creating-apis-with-apicurio-studio"]
+[id='creating-apis-with-apicurio-studio']
 == Creating APIs with Apicurio Studio
 
 . Launch a new tab on your web browser.
@@ -67,7 +67,7 @@ image::images/design-04.png[design-create-api, role="integr8ly-img-responsive"]
 image::images/design-05.png[design-edit-api, role="integr8ly-img-responsive"]
 
 [time=2]
-[id="editing-apis"]
+[id='editing-apis']
 == Editing APIs
 
 You are now in the main screen to edit your APIs. Apicurio is a graphical, form-based API editor. With Apicurio you don't need master in and out all the details of the *OpenAPI Specification*. It allows you to design beautiful, functionals APIs with zero coding.
@@ -107,7 +107,7 @@ image::images/design-17.png[design-definition-types, role="integr8ly-img-respons
 _Time to start creating some paths_.
 
 [time=2]
-[id="adding-paths"]
+[id='adding-paths']
 == Adding Paths
 
 === 3a: Add /locations path with GET method
@@ -120,7 +120,6 @@ image::images/design-06.png[design-add-path, role="integr8ly-img-responsive"]
 
 . Fill in the new resource path with the following information:
  ** Path: */locations*
-
 +
 image::images/design-07.png[design-path, role="integr8ly-img-responsive"]
 . Click *Add*.
@@ -259,7 +258,7 @@ image::images/design-56.png[design-response-example, role="integr8ly-img-respons
 
 
 [time=2]
-[id="download-api-definition"]
+[id='download-api-definition']
 == Download the API definition
 
 . Click the *Locations-{user-username}* link to return to the API admin page.
@@ -278,13 +277,13 @@ image::images/design-24.png[design-api-source, role="integr8ly-img-responsive"]
 _Congratulations!_ You have created your first API definition based on the OpenAPI Specification  using Red Hat's Apicurio. Don't lose track of the file, you will use this definition for your next lab.
 
 [time=1]
-[id="step-beyond"]
+[id='step-beyond']
 == Steps Beyond
 
 So, you want more? Did you notice the link *source* when editing the _Paths_ or the _Definitions_? Get back to the API editor and follow the link. What do you see? Apicurio lets you follow the form-based editor or go one step beyond and also lets you direct edit the source of your API definition.
 
 [time=1]
-[id="summary"]
+[id='summary']
 == Summary
 
 In this lab you used Apicurio Studio to create a simple API definition using the OpenAPI Specification. You learned how to author and download a standards compliant API Specification using Red Hat's Apicurio.
@@ -292,7 +291,7 @@ In this lab you used Apicurio Studio to create a simple API definition using the
 You can now proceed to link:{next-lab-url}[Lab 2].
 
 [time=5]
-[id="further-reading"]
+[id='further-reading']
 == Notes and Further Reading
 
 * Apicurio
