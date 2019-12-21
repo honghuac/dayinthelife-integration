@@ -4,7 +4,6 @@
 :user-password: openshift
 
 
-[id='api-design']
 = Integrator Lab 1 - API Design
 
 In this lab you will use Apicurio Studio to create a simple API definition using the OpenAPI Specification. You will learn how to author and download a standards compliant API Specification using Red Hat's Apicurio.
@@ -34,8 +33,7 @@ Your password is: `{user-password}`
 * link:{apicurio-studio-url}[Apicurio Studio, window="_blank"]
 ****
 
-[time=2]
-[id='creating-apis-with-apicurio-studio']
+[time=15]
 == Creating APIs with Apicurio Studio
 
 . Launch a new tab on your web browser.
@@ -58,7 +56,6 @@ image::images/design-03.png[design-new-api, role="integr8ly-img-responsive"]
  ** Type: *Open API 3.0.2*
  ** Name: *`Locations-{user-username}`*
  ** Description: *`Locations API`*
-
 +
 image::images/design-04.png[design-create-api, role="integr8ly-img-responsive"]
 . Click on *Create API*.
@@ -66,8 +63,7 @@ image::images/design-04.png[design-create-api, role="integr8ly-img-responsive"]
 +
 image::images/design-05.png[design-edit-api, role="integr8ly-img-responsive"]
 
-[time=2]
-[id='editing-apis']
+[time=20]
 == Editing APIs
 
 You are now in the main screen to edit your APIs. Apicurio is a graphical, form-based API editor. With Apicurio you don't need master in and out all the details of the *OpenAPI Specification*. It allows you to design beautiful, functionals APIs with zero coding.
@@ -95,9 +91,8 @@ image::images/design-15.png[design-add-datatype, role="integr8ly-img-responsive"
       "status": "1"
   }
 ----
-
- ** Choose to create a REST Resource with the Data Type: *No Resource*
-
++
+** Choose to create a REST Resource with the Data Type: *No Resource*
 +
 image::images/design-16.png[design-JSON-Example, role="integr8ly-img-responsive"]
 . Apicurio automatically tries to detect the data types from the provided example.
@@ -106,8 +101,7 @@ image::images/design-17.png[design-definition-types, role="integr8ly-img-respons
 +
 _Time to start creating some paths_.
 
-[time=2]
-[id='adding-paths']
+[time=20]
 == Adding Paths
 
 === 3a: Add /locations path with GET method
@@ -122,6 +116,7 @@ image::images/design-06.png[design-add-path, role="integr8ly-img-responsive"]
  ** Path: */locations*
 +
 image::images/design-07.png[design-path, role="integr8ly-img-responsive"]
+
 . Click *Add*.
 +
 _By default, Apicurio suggest a series of available operations for your new path_.
@@ -201,7 +196,6 @@ image::images/design-19.png[design-add-example, role="integr8ly-img-responsive"]
       }
   ]
 ----
-
 +
 image::images/design-20.png[design-response-example, role="integr8ly-img-responsive"]
 . Click on the drop-down next to the _No description_ message, and enter `Returns an array of location records` as the description.  Click the check-mark button to accept the description.
@@ -256,9 +250,8 @@ image::images/design-40.png[design-location-type, role="integr8ly-img-responsive
 +
 image::images/design-56.png[design-response-example, role="integr8ly-img-responsive"]
 
+[time=20]
 
-[time=2]
-[id='download-api-definition']
 == Download the API definition
 
 . Click the *Locations-{user-username}* link to return to the API admin page.
@@ -276,14 +269,13 @@ image::images/design-24.png[design-api-source, role="integr8ly-img-responsive"]
 
 _Congratulations!_ You have created your first API definition based on the OpenAPI Specification  using Red Hat's Apicurio. Don't lose track of the file, you will use this definition for your next lab.
 
-[time=1]
-[id='step-beyond']
+[time=5]
 == Steps Beyond
 
 So, you want more? Did you notice the link *source* when editing the _Paths_ or the _Definitions_? Get back to the API editor and follow the link. What do you see? Apicurio lets you follow the form-based editor or go one step beyond and also lets you direct edit the source of your API definition.
 
-[time=1]
-[id='summary']
+[time=3]
+
 == Summary
 
 In this lab you used Apicurio Studio to create a simple API definition using the OpenAPI Specification. You learned how to author and download a standards compliant API Specification using Red Hat's Apicurio.
@@ -291,7 +283,7 @@ In this lab you used Apicurio Studio to create a simple API definition using the
 You can now proceed to link:{next-lab-url}[Lab 2].
 
 [time=5]
-[id='further-reading']
+
 == Notes and Further Reading
 
 * Apicurio
